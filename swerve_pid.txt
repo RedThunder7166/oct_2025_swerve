@@ -1,0 +1,33 @@
+don't forget to make individual constantsfactories (pls let there be another method)
+
+private static final Slot0Configs frontLeftDriveGains = new Slot0Configs()
+    .withKP(0.081172).withKI(0).withKD(0)
+    .withKS(3.9144).withKV(0.031497);
+
+private static final Slot0Configs frontLeftSteerGains = new Slot0Configs()
+    .withKP(5.6651).withKI(0).withKD(0)
+    .withKS(1.2731).withKV(7.1717);
+
+private static final Slot0Configs frontRightDriveGains = new Slot0Configs()
+    .withKP(0.1184).withKI(0).withKD(0)
+    .withKS(4.3103).withKV(0.043218);
+
+private static final Slot0Configs frontRightSteerGains = new Slot0Configs()
+    .withKP(6.4286).withKI(0).withKD(0)
+    .withKS(2.1886).withKV(7.0886);
+
+private static final Slot0Configs backLeftDriveGains = new Slot0Configs()
+    .withKP(0.044168).withKI(0).withKD(0)
+    .withKS(3.9659).withKV(0.016926);
+
+private static final Slot0Configs backLeftSteerGains = new Slot0Configs()
+    .withKP(6.5435).withKI(0).withKD(0)
+    .withKS(2.2164).withKV(6.2481);
+
+private static final Slot0Configs backRightDriveGains = new Slot0Configs()
+    .withKP(0.017502).withKI(0).withKD(0)
+    .withKS(3.2572).withKV(0.0074476);
+
+private static final Slot0Configs backRightSteerGains = new Slot0Configs()
+    .withKP(5.0921).withKI(0).withKD(0)
+    .withKS(1.7435).withKV(3.9108);
