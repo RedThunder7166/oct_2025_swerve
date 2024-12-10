@@ -33,4 +33,6 @@ public class Constants {
         // Meters.convertFrom(18.5, Inches),
         Meters.convertFrom(18.5, Inches)
     );
+
+    public static final int CANDLE_ID = 20;
 }
