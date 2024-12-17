@@ -35,4 +35,5 @@ public class Constants {
     );
 
     public static final int CANDLE_ID = 20;
+    public static final int CANDLE_LED_COUNT = 47;
 }
